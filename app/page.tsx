@@ -91,7 +91,7 @@ const locations: Location[] = [
     address: "Mariahilfer Straße 101/3/48-49, 1060 Wenen",
     postalCode: "1060",
     region: "Wenen",
-    email: "office@fulcrum.at",
+    email: "office@fulcrum-consulting.net",
     googleMapsUrl: "https://maps.app.goo.gl/Ui5x2fcBZ2kst1fr6",
   },
   {
@@ -102,10 +102,10 @@ const locations: Location[] = [
     flag: "🇦🇹",
     coordinates: [14.2858, 47.9569],
     originalCoordinates: [14.2858, 48.3069],
-    address: "Peter-Behrens-Platz 10, 2e verdieping, 4010 Linz",
-    postalCode: "4010",
+    address: "Peter-Behrens-Platz 10, 2e verdieping, 4020 Linz",
+    postalCode: "4020",
     region: "Opper-Oostenrijk",
-    email: "office@fulcrum.at",
+    email: "office@fulcrum-consulting.net",
   },
   {
     id: "munich",
@@ -118,7 +118,7 @@ const locations: Location[] = [
     address: "Rundfunkplatz 2, 80335 München",
     postalCode: "80335",
     region: "Beieren",
-    email: "office@fulcrum.de",
+    email: "office@fulcrum-consulting.net",
     googleMapsUrl: "https://maps.app.goo.gl/UB8HzKvxSw4nL6Mx5",
   },
   {
@@ -132,7 +132,7 @@ const locations: Location[] = [
     address: "Boulevard Plaza Tower 2, Downtown Dubai",
     postalCode: "00000",
     region: "Emiraat Dubai",
-    email: "office@fulcrum-consulting.ae",
+    email: "office@fulcrum-consulting.net",
     googleMapsUrl: "https://maps.app.goo.gl/kMgS2hRBD7TAuXyc6",
   },
   {
@@ -146,7 +146,7 @@ const locations: Location[] = [
     address: "B.V. Prof. W.H. Keesomlaan 12, 1183 DJ Amstelveen",
     postalCode: "1183 DJ",
     region: "Noord-Holland",
-    email: "office@fulcrum-consulting.nl",
+    email: "office@fulcrum-consulting.net",
     googleMapsUrl: "https://maps.app.goo.gl/AHijch2RS2SJRfW6A",
   },
 ]
