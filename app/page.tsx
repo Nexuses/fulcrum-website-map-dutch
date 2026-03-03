@@ -343,9 +343,9 @@ export default function WorldMapInterface() {
                     <g>
                       <g>
                         <rect
-                          x={-110}
+                          x={-150}
                           y={-170}
-                          width={220}
+                          width={300}
                           height={100}
                           fill="white"
                           rx={18}
@@ -355,9 +355,9 @@ export default function WorldMapInterface() {
                           filter="url(#addressBoxShadow)"
                         />
 
-                        <rect x={-105} y={-168} width={210} height={3} fill="#C00000" rx={12} />
+                        <rect x={-145} y={-168} width={290} height={3} fill="#C00000" rx={12} />
 
-                        <foreignObject x={-100} y={-155} width="200" height="75">
+                        <foreignObject x={-140} y={-155} width="280" height="75">
                           <div className="text-sm text-gray-700 leading-tight">
                             <div className="mb-2">
                               {location.googleMapsUrl ? (
@@ -382,7 +382,7 @@ export default function WorldMapInterface() {
                         </foreignObject>
 
                         <text
-                          x={-100}
+                          x={-140}
                           y={-28}
                           textAnchor="start"
                           className="fill-gray-400 font-medium"
@@ -494,9 +494,9 @@ export default function WorldMapInterface() {
 
                     <g>
                       <rect
-                        x={-90}
+                        x={-110}
                         y={15}
-                        width={180}
+                        width={220}
                         height={80}
                         fill="white"
                         rx={18}
@@ -506,9 +506,9 @@ export default function WorldMapInterface() {
                         filter="url(#addressBoxShadow)"
                       />
 
-                      <rect x={-85} y={92} width={170} height={3} fill="#C00000" rx={12} />
+                      <rect x={-105} y={92} width={210} height={3} fill="#C00000" rx={12} />
 
-                      <foreignObject x={-80} y={30} width="40" height="40">
+                      <foreignObject x={-100} y={30} width="40" height="40">
                         <div className="w-10 h-10 flex items-center justify-center">
                           <FlagIcon 
                             countryCode={location.countryKey === 'Austria' ? 'AT' : 
@@ -522,7 +522,7 @@ export default function WorldMapInterface() {
                       </foreignObject>
 
                       <text
-                        x={-30}
+                        x={-50}
                         y={47}
                         textAnchor="start"
                         className="fill-gray-900 font-bold"
@@ -532,7 +532,7 @@ export default function WorldMapInterface() {
                       </text>
 
                       <text
-                        x={-30}
+                        x={-50}
                         y={65}
                         textAnchor="start"
                         className="fill-gray-500 font-medium"
